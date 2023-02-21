@@ -21,7 +21,7 @@ ui <- fluidPage(theme = shinytheme("journal"),
   # set tabs
   mainPanel(
     tabsetPanel(
-      tabPanel("State-level visualization",
+      tabPanel("State-level Counts",
                fluidRow(
                  column(3,
                         selectInput(
